@@ -1,0 +1,144 @@
+@font-face {
+            font-family: 'Idroid' ;
+            src: url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: #84e1ad;
+    text-align: justify;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+h1{
+    font-family: "Bebas Neue";
+}
+
+h2 {
+    font-family: Idroid;
+    color: #1A5B38;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: Idroid;
+    color: #1A5B38;
+    background-image: linear-gradient(to right, #84e1ad, white );
+}
+
+strong {
+    color: #0e7639;
+}
+
+
+
+header {
+    background-image: linear-gradient(to bottom,#3cd883, #1A5B38);
+    color: white;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.835);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.406);
+}
+
+nav {
+    margin-top: 50px;
+    text-align: start;
+}
+
+nav > a {
+    text-shadow: none;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #3cd882ad;
+}
+
+main {
+    background-color: white;
+    margin: 0px 100px 30px 100px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.406);
+    border-radius: 10px;
+
+}
+
+.links1 {
+    text-decoration: none;
+    color: #0e7639;
+    font-weight: bold;
+}
+
+.links1:hover{
+    background-color: #3cd882a4;
+}
+.historia {
+    padding: 5px 20px 0px 20px;
+}
+
+.versao {
+    padding: 5px 20px 0px 20px;
+}
+
+.mascote {
+    padding: 5px 20px 0px 20px;
+}
+
+.video {
+    background-color: #1A5B38;
+    padding: 20px;
+
+}
+
+.sugestao {
+    padding: 5px 20px 5px 20px;
+}
+
+.extra {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
+
+h4 {
+    color: white;
+    background-color: #2fa866;
+    padding: 10px;
+}
+
+ul {
+    column-count: 2;
+}
+
+li > abbr{
+    text-decoration: none;
+}
+
+li > abbr:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A5B38;
+    color: #84e1ad;
+    text-align: center;
+    padding: 1px;
+}
+
+.fs {
+    color: white;
+}
