@@ -12,16 +12,25 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        } 
 
-        }
         td, th {
             border: 1px solid black;
+           
             padding: 10px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(82, 82, 82);
             color: rgb(255, 255, 255);
         }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(82, 82, 82) ;
+        }
+
         .num {
             text-align: right;
         }
@@ -30,6 +39,14 @@
             font-size: 1.5rem;
             font-weight: bold;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd){ /* 2n-1 */
+            background-color: rgb(255, 255, 255);
+        }
+
+        tbody > tr:nth-child(even){/* 2n */
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -179,5 +196,16 @@
     </tbody>
 </table>
 
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptates cupiditate blanditiis animi quibusdam reiciendis nihil saepe illum incidunt porro quia ducimus eum, nisi assumenda exercitationem quam repellendus maxime placeat, quo velit iure. Aliquid facilis consectetur odit ex cumque tempora quibusdam molestias incidunt ut reiciendis dignissimos alias voluptates laudantium nulla error quod quasi consequuntur amet nam labore voluptatibus, nihil distinctio ipsam. Quidem aliquam consequuntur laudantium pariatur reprehenderit, deleniti animi eligendi blanditiis aliquid esse magni quae veritatis corporis veniam nostrum voluptatum dignissimos soluta aut laboriosam? Doloribus fuga rerum dolore architecto natus nulla. Eveniet, obcaecati facilis. Nisi fuga itaque blanditiis distinctio ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus repellendus ut, sequi, laudantium sed iure placeat deleniti consequatur magni mollitia. Et soluta nam aut! Quod blanditiis mollitia perferendis facere?</p>
 
 </html>
