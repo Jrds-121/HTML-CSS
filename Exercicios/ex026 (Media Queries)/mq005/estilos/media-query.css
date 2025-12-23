@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoints
+-------------------------------
+Celular: 320px - 576px
+Tablet: 576px - 992px
+Dasktop: 992px - 1200px
+TV: < 1200px
+*/
+
+@media screen and (min-width: 576px){
+#burguer {
+    display: none;
+}
+
+nav{
+    display: block !important;
+}
+nav li{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+main {
+    width: 760px;
+}
+}
+
+
