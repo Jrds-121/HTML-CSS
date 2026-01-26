@@ -1,0 +1,66 @@
+* { 
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 70px 50px 1fr 40px/ 1fr 250px;
+    gap: 15px;
+}
+
+.caixa {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.47);
+}
+
+#topo {
+    grid-area: 1 / 1 / 2 / 3 ;
+    background-color: #616161;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#menu {
+    grid-area: 2 / 1 / 3 / 3 ;
+    text-align: center;
+    padding: 15px;
+    background-color: #9f9f9f;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+}
+
+#principal {
+    grid-area: 3 / 1 / 4 / 2 ;
+    text-align: center;
+    padding: 20px;
+}
+
+#principal > p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+#secundario {
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+#rodape {
+    grid-area: 4 / 1 / 5 / 3;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #616161;
+}
